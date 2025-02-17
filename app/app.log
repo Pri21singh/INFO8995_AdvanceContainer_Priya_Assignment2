@@ -1,0 +1,51 @@
+2025-02-16 19:04:27,105 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.159:5000
+2025-02-16 19:04:27,105 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 19:04:27,109 - INFO -  * Restarting with stat
+2025-02-16 19:04:27,805 - WARNING -  * Debugger is active!
+2025-02-16 19:04:27,813 - INFO -  * Debugger PIN: 939-481-030
+2025-02-16 19:08:56,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.159:5000
+2025-02-16 19:08:56,548 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 19:08:56,553 - INFO -  * Restarting with stat
+2025-02-16 19:08:57,127 - WARNING -  * Debugger is active!
+2025-02-16 19:08:57,131 - INFO -  * Debugger PIN: 939-481-030
+2025-02-16 19:10:42,069 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.159:5000
+2025-02-16 19:10:42,070 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 19:10:42,072 - INFO -  * Restarting with stat
+2025-02-16 19:10:42,945 - WARNING -  * Debugger is active!
+2025-02-16 19:10:42,950 - INFO -  * Debugger PIN: 939-481-030
+2025-02-16 19:12:06,342 - INFO - Incoming Request: GET http://localhost:5000/user/2 - Data: b''
+2025-02-16 19:12:06,568 - INFO - Outgoing Response: 200 OK - Data: b'{\n  "first_name": "Vik",\n  "id": 2,\n  "last_name": "R"\n}\n'
+2025-02-16 19:12:06,569 - INFO - 127.0.0.1 - - [16/Feb/2025 19:12:06] "GET /user/2 HTTP/1.1" 200 -
+2025-02-16 19:12:36,165 - INFO - Incoming Request: POST http://127.0.0.1:5000/user - Data: b'{"first_name": "Google", "last_name": "CEO"}'
+2025-02-16 19:12:36,195 - INFO - Outgoing Response: 201 CREATED - Data: b'{\n  "id": 3,\n  "message": "User created successfully"\n}\n'
+2025-02-16 19:12:36,196 - INFO - 127.0.0.1 - - [16/Feb/2025 19:12:36] "[35m[1mPOST /user HTTP/1.1[0m" 201 -
+2025-02-16 19:12:41,433 - INFO - Incoming Request: GET http://localhost:5000/user/3 - Data: b''
+2025-02-16 19:12:41,447 - INFO - Outgoing Response: 200 OK - Data: b'{\n  "first_name": "Google",\n  "id": 3,\n  "last_name": "CEO"\n}\n'
+2025-02-16 19:12:41,447 - INFO - 127.0.0.1 - - [16/Feb/2025 19:12:41] "GET /user/3 HTTP/1.1" 200 -
+2025-02-16 19:22:10,391 - INFO -  * Detected change in 'C:\\Users\\singp\\OneDrive\\Desktop\\Container&Orchestration\\INFO8995_AdvanceContainer_Priya_Assignment2\\app\\app.py', reloading
+2025-02-16 19:22:10,878 - INFO -  * Restarting with stat
+2025-02-16 19:22:12,428 - WARNING -  * Debugger is active!
+2025-02-16 19:22:12,435 - INFO -  * Debugger PIN: 939-481-030
+2025-02-16 20:51:25,733 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.159:5000
+2025-02-16 20:51:25,734 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 20:51:25,738 - INFO -  * Restarting with stat
+2025-02-16 20:51:26,483 - WARNING -  * Debugger is active!
+2025-02-16 20:51:26,493 - INFO -  * Debugger PIN: 939-481-030
+2025-02-16 20:51:35,990 - INFO - Incoming Request: GET http://localhost:5000/user/1 - Data: b''
+2025-02-16 20:51:36,293 - INFO - Outgoing Response: 200 OK - Data: b'{\n  "first_name": "Priya",\n  "id": 1,\n  "last_name": "Singh"\n}\n'
+2025-02-16 20:51:36,295 - INFO - 127.0.0.1 - - [16/Feb/2025 20:51:36] "GET /user/1 HTTP/1.1" 200 -
+2025-02-16 20:51:37,716 - INFO - Incoming Request: GET http://localhost:5000/favicon.ico - Data: b''
+2025-02-16 20:51:37,717 - INFO - Outgoing Response: 404 NOT FOUND - Data: b'<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n'
+2025-02-16 20:51:37,718 - INFO - 127.0.0.1 - - [16/Feb/2025 20:51:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
